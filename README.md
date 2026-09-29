@@ -13,7 +13,13 @@ My work focuses on making automated work inspectable, reproducible, and useful.
 | [INDUSTRIA](https://github.com/Foshowithit/industria) | An interactive machining simulation exploring cutting force, deflection, stability, and dimensional error. |
 | [Shop OS — Pillow-Block Proof](https://github.com/Foshowithit/shop-os-pillow-block-proof) | A documented manufacturing-agent run with downloadable CAD, advisory process plans, and runnable verification tools. |
 
-## What connects the work
+## RCOS and reusable agent capabilities
+
+RCOS (Recursive Capability Operating System) is the research direction connecting
+my agent work: execute a task, evaluate the result, and reuse capabilities that
+meet explicit admission criteria. The public [operator UI](https://github.com/Foshowithit/dsh-operator-ui)
+and [FlowRouter manifest specification](https://github.com/Foshowithit/flowrouter)
+show parts of that work. Their repositories document what is available today.
 
 I’m interested in the full path from a request to a result: how agents execute work,
 how we evaluate the output, and how useful capabilities can be reused.
