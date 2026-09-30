@@ -1,30 +1,39 @@
 # Adam Normandin
 
-I build AI agent systems, evaluation tools, and interactive engineering software.
-My work focuses on making automated work inspectable, reproducible, and useful.
+I build AI agent systems, evaluation infrastructure, and interactive engineering software.
 
-## Selected work
+My main project is **RCOS — Recursive Capability Operating System**: a workflow-first system for turning goals into executed work, verifying the result with evidence, and promoting useful capabilities for reuse.
 
-| Project | What it does |
+## Current focus
+
+**RCOS**
+`goal → workflow manager → Archon execution → evidence → evaluation → reusable capability`
+
+The current work is focused on:
+- durable agent execution and recovery
+- capability acquisition, evaluation, promotion, and reuse
+- evidence-backed receipts instead of self-reported success
+- SWE and visual capabilities
+- a spatial **Canvas Alpha** for shared human/agent work inside DSH Desktop
+
+## Selected public work
+
+| Project | Role |
 | --- | --- |
-| [DSH Operator UI](https://github.com/Foshowithit/dsh-operator-ui) | An operator interface for running agent tasks, inspecting execution evidence, and managing reusable capabilities. |
-| [FlowRouter](https://github.com/Foshowithit/flowrouter) | A capability-manifest specification for describing executable work, its inputs and outputs, and evidence of execution. |
-| [FishBench](https://github.com/Foshowithit/fishbench) | Model evaluations covering persona consistency and generated 3D scenes, with recorded results to inspect. |
-| [INDUSTRIA](https://github.com/Foshowithit/industria) | An interactive machining simulation exploring cutting force, deflection, stability, and dimensional error. |
-| [Shop OS — Pillow-Block Proof](https://github.com/Foshowithit/shop-os-pillow-block-proof) | A documented manufacturing-agent run with downloadable CAD, advisory process plans, and runnable verification tools. |
+| [DSH Operator UI](https://github.com/Foshowithit/dsh-operator-ui) | RCOS operator/runtime surface for goals, execution evidence, capability state, and verification. |
+| [FlowRouter](https://github.com/Foshowithit/flowrouter) | Portable capability-manifest format for executable work, inputs, outputs, and evidence. |
+| [Shop OS — Pillow-Block Proof](https://github.com/Foshowithit/shop-os-pillow-block-proof) | Manufacturing-agent proof with CAD/process artifacts and runnable verification. |
+| [INDUSTRIA](https://github.com/Foshowithit/industria) | Interactive machining simulation for force, deflection, stability, and dimensional error. |
+| [FishBench](https://github.com/Foshowithit/fishbench) | Evaluation work covering model behavior and generated 3D scenes with inspectable results. |
 
-## RCOS and reusable agent capabilities
+## What I care about
 
-RCOS (Recursive Capability Operating System) is the research direction connecting
-my agent work: execute a task, evaluate the result, and reuse capabilities that
-meet explicit admission criteria. The public [operator UI](https://github.com/Foshowithit/dsh-operator-ui)
-and [FlowRouter manifest specification](https://github.com/Foshowithit/flowrouter)
-show parts of that work. Their repositories document what is available today.
+- **Executed evidence over claims**
+- **Human approval at consequential boundaries**
+- **Reusable capabilities instead of one-off agent runs**
+- **Open, portable architecture where it makes sense**
+- **Interfaces that let humans and agents manipulate the same work**
 
-I’m interested in the full path from a request to a result: how agents execute work,
-how we evaluate the output, and how useful capabilities can be reused.
-The projects above explore that through agent tooling, benchmarks, and engineering simulations.
+I’m especially interested in the point where AI systems stop feeling like chatbots and start behaving like programmable, inspectable operating environments.
 
-Each repository documents its own scope, setup, and limitations.
-
-[Website](https://flowrouter.work)
+[flowrouter.work](https://flowrouter.work) · [adamn.info](https://adamn.info)
