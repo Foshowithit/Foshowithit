@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Adam Normandin — Software Factories</title><desc id="desc">Editorial dark banner, Software Factories headline and a governed execution diagram.</desc>
+<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#2a3436" stroke-width=".6"/></pattern></defs>
+<rect width="1200" height="360" fill="#141615"/><rect x="0" y="0" width="1200" height="360" fill="url(#grid)" opacity=".33"/>
+<rect x="54" y="44" width="4" height="14" fill="#20b8cd"/>
+<text x="70" y="56" fill="#b4c4c7" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" letter-spacing="2.2">ADAM NORMANDIN   /   ENGINEERING</text>
+<text x="54" y="154" fill="#e4ebf2" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="900" letter-spacing="-2">SOFTWARE</text>
+<text x="54" y="239" fill="#e4ebf2" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="900" letter-spacing="-2">FACTORIES.</text>
+<line x1="54" y1="272" x2="710" y2="272" stroke="#586669" stroke-width="1"/>
+<text x="54" y="304" fill="#c5d0d3" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing=".2">Workflow engineering  /  Agent systems  /  Private inference</text>
+<text x="54" y="334" fill="#8b9a9e" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="1.5">INDEPENDENT SYSTEMS ENGINEERING · NEW ENGLAND</text>
+<line x1="762" y1="43" x2="762" y2="317" stroke="#425154" stroke-width="1"/>
+<rect x="797" y="48" width="355" height="269" fill="#1c2223" stroke="#4c5b5f" stroke-width="1"/>
+<text x="821" y="82" fill="#9db0b6" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">GOVERNED EXECUTION / 001</text>
+<line x1="821" y1="98" x2="1128" y2="98" stroke="#425154"/>
+<g font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700">
+<rect x="822" y="121" width="133" height="44" rx="2" fill="#263033" stroke="#6c858a"/><text x="888" y="148" fill="#dce8eb" text-anchor="middle">INTENT</text>
+<rect x="1018" y="121" width="110" height="44" rx="2" fill="#263033" stroke="#6c858a"/><text x="1073" y="148" fill="#dce8eb" text-anchor="middle">ROUTE</text>
+<rect x="822" y="207" width="133" height="44" rx="2" fill="#263033" stroke="#6c858a"/><text x="888" y="234" fill="#dce8eb" text-anchor="middle">EXECUTE</text>
+<rect x="1018" y="207" width="110" height="44" rx="2" fill="#25454b" stroke="#20b8cd"/><text x="1073" y="234" fill="#e4faff" text-anchor="middle">VERIFY</text>
+</g>
+<path d="M955 143H1018M1073 165V185H888V207M955 229H1018" fill="none" stroke="#20b8cd" stroke-width="2"/>
+<path d="m1009 139 9 4-9 4M892 198l-4 9-4-9M1009 225l9 4-9 4" fill="none" stroke="#20b8cd" stroke-width="2"/>
+<line x1="822" y1="273" x2="1128" y2="273" stroke="#425154"/>
+<rect x="822" y="289" width="7" height="7" fill="#20b8cd"/><text x="840" y="297" fill="#b9c8cb" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing=".8">EVIDENCE IS THE OUTPUT</text>
+</svg>
